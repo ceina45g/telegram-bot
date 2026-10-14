@@ -1,9 +1,5 @@
 import os
-from dotenv import load_dotenv
 import telebot
-
-# 載入 .env 檔案中的環境變數
-load_dotenv()
 
 # 從環境變數讀取 Bot Token
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
