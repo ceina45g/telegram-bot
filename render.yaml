@@ -1,0 +1,13 @@
+services:
+  - type: worker
+    name: telegram-bot-worker
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 8701675905:AAFVkhivlP-sobU_FiWAlR0op-Tda_ye_gM
+      - key: TELEGRAM_BOT_TOKEN
+        value: 8701675905:AAFVkhivlP-sobU_FiWAlR0op-Tda_ye_gM
+      - key: CHAT_ID
+        value: "1418292007"

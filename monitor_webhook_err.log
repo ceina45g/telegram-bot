@@ -1,0 +1,11 @@
+INFO:     Started server process [1064]
+INFO:     Waiting for application startup.
+2026-08-09 20:59:40,826 - __main__ - INFO - 正在啟動 Webhook 機器人...
+2026-08-09 20:59:41,616 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8963675814:AAG1CcOhfyIvA5hj6gVrCZTjtKB8l3qLUwo/getMe "HTTP/1.1 200 OK"
+2026-08-09 20:59:41,618 - apscheduler.scheduler - INFO - Scheduler started
+2026-08-09 20:59:41,619 - telegram.ext.Application - INFO - Application started
+2026-08-09 20:59:41,621 - __main__ - INFO - 自動偵測 Webhook: https://a697-219-71-33-17.ngrok-free.app/webhook
+2026-08-09 20:59:41,914 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8963675814:AAG1CcOhfyIvA5hj6gVrCZTjtKB8l3qLUwo/setWebhook "HTTP/1.1 200 OK"
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-08-09 20:59:42,715 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8963675814:AAG1CcOhfyIvA5hj6gVrCZTjtKB8l3qLUwo/sendMessage "HTTP/1.1 200 OK"

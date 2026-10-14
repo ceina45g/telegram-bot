@@ -1,0 +1,7 @@
+2026-08-09 17:18:06,447 - __main__ - INFO - 機器人啟動中...
+2026-08-09 17:18:07,231 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8963675814:AAG1CcOhfyIvA5hj6gVrCZTjtKB8l3qLUwo/getMe "HTTP/1.1 200 OK"
+2026-08-09 17:18:07,481 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8963675814:AAG1CcOhfyIvA5hj6gVrCZTjtKB8l3qLUwo/deleteWebhook "HTTP/1.1 200 OK"
+2026-08-09 17:18:07,482 - apscheduler.scheduler - INFO - Scheduler started
+2026-08-09 17:18:07,483 - telegram.ext.Application - INFO - Application started
+2026-08-09 17:18:18,256 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8963675814:AAG1CcOhfyIvA5hj6gVrCZTjtKB8l3qLUwo/getUpdates "HTTP/1.1 200 OK"
+2026-08-09 17:18:28,517 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8963675814:AAG1CcOhfyIvA5hj6gVrCZTjtKB8l3qLUwo/getUpdates "HTTP/1.1 200 OK"

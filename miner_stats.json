@@ -1,0 +1,53 @@
+{
+  "user": {
+    "hashrate1m": "0",
+    "hashrate5m": "0",
+    "hashrate1hr": "0",
+    "hashrate1d": "1.07K",
+    "hashrate7d": "24.2K",
+    "lastshare": 1789562601,
+    "workers": 0,
+    "shares": 20663.0,
+    "bestshare": 87.71975697629439,
+    "bestever": 87.71975697629439,
+    "authorised": 1785890969,
+    "worker": [
+      {
+        "workername": "13NvdBs5dFarwR4TK373BMM4sEheAXbewB",
+        "hashrate1m": "0",
+        "hashrate5m": "0",
+        "hashrate1hr": "0",
+        "hashrate1d": "1.07K",
+        "hashrate7d": "24.1K",
+        "lastshare": 1789562601,
+        "shares": 8088.0,
+        "bestshare": 87.71975697629439,
+        "bestever": 87.71975697629439
+      }
+    ]
+  },
+  "pool": {
+    "runtime": 1537628,
+    "lastupdate": 1789997770,
+    "Users": 8879,
+    "Workers": 9441,
+    "Idle": 551,
+    "Disconnected": 1135,
+    "hashrate1m": "7.57234G",
+    "hashrate5m": "7.67530G",
+    "hashrate15m": "7.69243G",
+    "hashrate1hr": "7.69937G",
+    "hashrate6hr": "7.71580G",
+    "hashrate1d": "7.73656G",
+    "hashrate7d": "7.25460G",
+    "diff": 0.05,
+    "accepted": 64439800000.0,
+    "rejected": 10824500000.0,
+    "bestshare": 212214000.0,
+    "SPS1m": 1763.07,
+    "SPS5m": 1787.05,
+    "SPS15m": 1791.03,
+    "SPS1h": 1792.65
+  },
+  "updated_at": "2026-09-21 21:36:46"
+}

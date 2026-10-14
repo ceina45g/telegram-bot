@@ -1,0 +1,16 @@
+INFO:     Started server process [1580]
+INFO:     Waiting for application startup.
+2026-08-10 05:49:39,978 - __main__ - INFO - \U0001f680 超級整合機器人啟動中...
+2026-08-10 05:49:40,737 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7844559948:AAED2hkAOcLc2CqG_malaH3DqUMhpa5JWu0/getMe "HTTP/1.1 200 OK"
+2026-08-10 05:49:40,738 - apscheduler.scheduler - INFO - Scheduler started
+2026-08-10 05:49:40,739 - telegram.ext.Application - INFO - Application started
+2026-08-10 05:49:42,744 - apscheduler.scheduler - INFO - Added job "web_monitor_job" to job store "default"
+2026-08-10 05:49:42,747 - apscheduler.scheduler - INFO - Added job "mining_monitor_job" to job store "default"
+2026-08-10 05:49:42,748 - apscheduler.scheduler - INFO - Added job "verify_webhook_job" to job store "default"
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-08-10 05:49:47,745 - apscheduler.executors.default - INFO - Running job "web_monitor_job (trigger: interval[0:01:00], next run at: 2026-08-09 21:50:47 UTC)" (scheduled at 2026-08-09 21:49:47.743508+00:00)
+2026-08-10 05:49:47,747 - apscheduler.executors.default - INFO - Running job "mining_monitor_job (trigger: interval[0:01:00], next run at: 2026-08-09 21:50:47 UTC)" (scheduled at 2026-08-09 21:49:47.747137+00:00)
+2026-08-10 05:49:47,748 - __main__ - INFO - 正在執行礦池監控任務: https://pool.nerdminers.org/users/13NvdBs5dFarwR4TK373BMM4sEheAXbewB
+2026-08-10 05:49:47,749 - apscheduler.executors.default - INFO - Running job "verify_webhook_job (trigger: interval[0:01:00], next run at: 2026-08-09 21:50:47 UTC)" (scheduled at 2026-08-09 21:49:47.748360+00:00)
+2026-08-10 05:49:47,750 - apscheduler.executors.default - INFO - Job "verify_webhook_job (trigger: interval[0:01:00], next run at: 2026-08-09 21:50:47 UTC)" executed successfully
