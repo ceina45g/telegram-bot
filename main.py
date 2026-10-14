@@ -1,4 +1,3 @@
-import os
 import telebot
 
 # 從環境變數讀取 Bot Token
