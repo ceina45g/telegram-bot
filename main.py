@@ -2,7 +2,7 @@
 # 從環境變數讀取 Bot Token
 
 
-def send_welcome(message):
+
     bot.reply_to(message, "你好！我已經成功在 Render 上永久運行了！")
 
 @bot.message_handler(func=lambda msg: True)
