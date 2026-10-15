@@ -5,7 +5,7 @@
 
 
 
-def echo_all(message):
+
     bot.reply_to(message, f"你說了：{message.text}")
 
 if __name__ == "__main__":
