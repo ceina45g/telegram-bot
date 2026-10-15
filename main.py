@@ -6,7 +6,6 @@
 
 
 
-    bot.reply_to(message, f"你說了：{message.text}")
 
 if __name__ == "__main__":
     print("Telegram Bot 開始運行...")
