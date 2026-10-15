@@ -1,6 +1,6 @@
 
 # 從環境變數讀取 Bot Token
-BOT_TOKEN = os.environ.get('BOT_TOKEN')
+BOT_TOKEN = os.environ.get('8701675905:AAFVkhivlP-sobU_FiWAlR0op-Tda_ye_gM')
 bot = telebot.TeleBot(BOT_TOKEN)
 
 @bot.message_handler(commands=['start', 'hello'])
