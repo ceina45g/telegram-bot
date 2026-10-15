@@ -7,4 +7,4 @@
 
 
     # 關鍵：使用 infinity_polling 讓程式不會中斷
-    bot.infinity_polling()
+
