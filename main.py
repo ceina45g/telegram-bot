@@ -1,4 +1,3 @@
-import telebot
 
 # 從環境變數讀取 Bot Token
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
