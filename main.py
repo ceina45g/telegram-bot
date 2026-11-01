@@ -1,26 +1,22 @@
 import os
-from dotenv import load_dotenv
 import telebot
 
-# 載入 .env 檔案中的環境變數
-load_dotenv()
+# 建議在 Render 的 Environment 頁面新增 TELEGRAM_BOT_TOKEN
+# 若尚未設定環境變數，可先替換為字串 "YOUR_BOT_TOKEN_HERE"
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
 
-# 從環境變數讀取 Bot Token
-BOT_TOKEN = os.environ.get('BOT_TOKEN') or os.environ.get('TELEGRAM_BOT_TOKEN', "8701675905:AAFVkhivlP-sobU_FiWAlR0op-Tda_ye_gM")
+bot = telebot.TeleBot(TOKEN)
 
-bot = telebot.TeleBot(BOT_TOKEN)
-
-@bot.message_handler(commands=['start', 'hello'])
+@bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
-    bot.reply_to(message, "你好！我已經成功在 Render 上永久運行了！")
+    bot.reply_to(message, "你好！機器人已成功在 Render 上線運作。")
 
-@bot.message_handler(func=lambda msg: True)
+@bot.message_handler(func=lambda message: True)
 def echo_all(message):
-    bot.reply_to(message, f"你說了：{message.text}")
+    bot.reply_to(message, message.text)
 
 if __name__ == "__main__":
-    print("Telegram Bot 開始運行...")
-    # 關鍵：使用 infinity_polling 讓程式不會中斷
+    print("Telegram Bot 正在啟動並監聽訊息...")
+    # non_stop=True 確保在遭遇短暫網路錯誤時會持續嘗試重連
     bot.infinity_polling()
-
 
